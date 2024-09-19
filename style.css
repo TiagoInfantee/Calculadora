@@ -1,0 +1,48 @@
+body,
+html {
+  background-color: #353535;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 60px;
+  font-size: 45px;
+  position: fixed;
+  top: 0;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-bottom: 5px;
+}
+
+.botao {
+  font-size: xx-large;
+  width: 90px; 
+  height: 80px; 
+  padding: 20px;
+  text-align: center;
+  margin: 2px; 
+  box-sizing: border-box;
+  background-color: #bbbbbb;
+}
+
+.limpar {
+  font-size: xx-large;
+  width: 100%;
+  background-color: #bbbbbb;
+}
+
+.textArea {
+  width: 98%;
+  resize: none;
+  background-color: #bbbbbb;
+}

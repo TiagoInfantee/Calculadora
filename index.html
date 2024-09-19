@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <h1>CALCULADORA</h1>
+  </head>
+  <body>
+    <div class="calculadora">
+      <div class="container">
+        <button class="botao" onclick="AdicionarNum(1)">1</button>
+        <button class="botao" onclick="AdicionarNum(2)">2</button>
+        <button class="botao" onclick="AdicionarNum(3)">3</button>
+        <br />
+        <button class="botao" onclick="AdicionarNum(4)">4</button>
+        <button class="botao" onclick="AdicionarNum(5)">5</button>
+        <button class="botao" onclick="AdicionarNum(6)">6</button>
+        <br />
+        <button class="botao" onclick="AdicionarNum(7)">7</button>
+        <button class="botao" onclick="AdicionarNum(8)">8</button>
+        <button class="botao" onclick="AdicionarNum(9)">9</button>
+        <br />
+        <button class="botao" onclick="AdicionarOperacao('+')">+</button>
+        <button class="botao" onclick="AdicionarNum(0)">0</button>
+        <button class="botao" onclick="AdicionarOperacao('-')">-</button>
+        <br />
+        <button class="botao" onclick="CalculaResultado()">=</button>
+        <button class="botao" onclick="AdicionarOperacao('*')">x</button>
+        <button class="botao" onclick="AdicionarOperacao('/')">:</button>
+      </div>
+      <div class="container">
+        <textarea class="textArea" readonly id="printNums"></textarea>
+      </div>
+
+      <div class="container">
+        <button class="limpar" onclick="LimparTextarea()">Limpar</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
